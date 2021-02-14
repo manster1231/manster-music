@@ -4,34 +4,53 @@
 基于网易云音乐真实接口开发的音乐小程序
 
 #### 软件架构
-软件架构说明
+Nodejs作为后端
+ES6语法
+promise
 
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  git到本地
+2.  进入manster_server目录
+3.  在路径栏输入cmd
+4.  npm start开启服务(可能会提示nodemon不是内外部程序，则通过npm install -g nodemon解决)
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  首先要安装有nodejs
+2.  然后安装有微信小程序开发者工具
+3.  使用详情可参考微信官网给出的[起步](https://developers.weixin.qq.com/miniprogram/dev/framework/)
+4.  导入项目以后记得在本地配置中勾选
+    - ES6 转 ES5
+    - 增强编译
+    - 使用npm模块
+    - 不校验合法域名、web-view(业务域名)、TLS版本以及 HTTPS 证书
 
-#### 参与贡献
+#### 预览效果如下
+##### 初始页面
+![初始页面](https://images.gitee.com/uploads/images/2021/0214/110613_9eb39fdf_8531883.png "index.png")
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+##### 登录页面
+![登录页面](https://images.gitee.com/uploads/images/2021/0214/110706_6051c091_8531883.png "login.png")
 
+##### 个人中心页面
+![个人中心页面](https://images.gitee.com/uploads/images/2021/0214/110724_ae52c98a_8531883.png "person.png")
 
-#### 特技
+##### 推荐歌曲页面
+![推荐歌曲页面](https://images.gitee.com/uploads/images/2021/0214/110744_31fffee1_8531883.png "recommendSong.png")
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+##### 视频页面
+![视频页面](https://images.gitee.com/uploads/images/2021/0214/110804_ccf6d227_8531883.png "video.png")
+
+##### 热搜页面
+![热搜页面](https://images.gitee.com/uploads/images/2021/0214/110822_6447cbe3_8531883.png "hotSearch.png")
+
+##### 搜索列表
+![搜索列表](https://images.gitee.com/uploads/images/2021/0214/110851_b73a082e_8531883.png "searchList.png")
+
+##### 历史搜索记录
+![历史搜索记录](https://images.gitee.com/uploads/images/2021/0214/110936_2a5a29ec_8531883.png "songDetail.png")
+
+##### 歌曲详情页面
+![歌曲详情页面](https://images.gitee.com/uploads/images/2021/0214/110910_4e4ad21c_8531883.png "historyRecord.png")
