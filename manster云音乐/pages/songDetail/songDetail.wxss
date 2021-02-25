@@ -39,7 +39,7 @@
   height: 598rpx;
 }
 .discAnimation {
-  animation: disc 10s linear infinite;
+  animation: disc 20s linear infinite;
   animation-delay: 1s;
 }
 /*设置动画帧 1.from to(只有起始帧和结束帧)  2.百分比(不止两帧)*/
@@ -67,6 +67,15 @@
   width: 370rpx;
   height: 370rpx;
   border-radius: 50%;
+}
+/* 歌词显示 */
+.scrollLrc {
+  position: absolute;
+  bottom: 280rpx;
+  width: 640rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
 }
 /* 底部控制器 */
 .musicControl {

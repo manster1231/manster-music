@@ -42,12 +42,12 @@
   <!-- 推荐歌曲 -->
   <view class="recommendContainer">
     <!-- 头部 -->
-    <NavHeader title="推荐歌曲" nav="为你精心推荐"></NavHeader>
+    <NavHeader title="推荐歌单" nav="为你精心推荐"></NavHeader>
     <!-- 内容 -->
     <scroll-view class="recommendScroll" enable-flex="true" scroll-x="true">
       <view wx:for="{{recommendList}}" wx:key="id" wx:for-item="recommendItem" class="scrollItem" >
-        <image src="{{recommendItem.picUrl}}"></image>
-        <text>{{recommendItem.name}}</text>
+        <image src="{{recommendItem.picUrl}}" id="{{recommendItem.id}}" bindtap="toPlayList"></image>
+        <text bindtap="toPlayList">{{recommendItem.name}}</text>
       </view>
     </scroll-view>
   </view>

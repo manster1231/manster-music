@@ -1,7 +1,9 @@
 <!--pages/songDetail/songDetail.wxml-->
 <view class="songDetailContainer">
+
   <view class="musicAuthor">{{song.ar[0].name}}</view>
   <view class="circle"></view>
+  
   <!-- 摇杆 -->
   <image class="needle {{isPlay && 'needleRotate'}}" src="/static/images/song/needle.png"></image>
   <!-- 磁盘 -->
@@ -9,6 +11,10 @@
     <image class="disc" src="/static/images/song/disc.png"></image>
     <!-- 歌曲封面图 -->
     <image class="musicImg" src="{{song.al.picUrl}}"></image>
+  </view>
+  <!-- 歌词 -->
+  <view class="scrollLrc">
+    <text>{{currentLyric}}</text>
   </view>
   <!-- 进度条控制 -->
   <view class="progressControl">
