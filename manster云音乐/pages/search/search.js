@@ -61,7 +61,7 @@ Page({
     //函数节流
     setTimeout(() => {
       isSend = false;
-    }, 300);
+    }, 500);
   },
 
   //发请求获取搜索匹配到的数据
@@ -116,6 +116,25 @@ Page({
       }
     })
   },
+
+  //点击热搜榜进行搜索
+  searchHotSong(event){
+    this.setData({
+      searchContent: event.currentTarget.dataset.hotwords
+    })
+
+    //发请求获取搜索匹配到的数据
+    this.getSearchListData();
+  },
+
+  searchHistory(event){
+    this.setData({
+      searchContent: event.currentTarget.dataset.historyword
+    })
+
+    this.getSearchListData();
+  },
+
   //跳转到歌曲详情页面
   toSongDetail(event){
     wx.navigateTo({
