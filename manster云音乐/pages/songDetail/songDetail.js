@@ -62,7 +62,7 @@ Page({
       this.setData({
         currentWidth: 0,
         currentTime: '00:00',
-        lyric: 0,
+        lyric: [],
         lyricTime: 0,
       })
     })
