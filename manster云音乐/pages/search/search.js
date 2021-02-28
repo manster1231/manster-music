@@ -126,11 +126,7 @@ Page({
     //发请求获取搜索匹配到的数据
     this.getSearchListData();
   },
-<<<<<<< HEAD
   //点击历史记录进行搜索
-=======
-
->>>>>>> f14860163e644ca8abe75c674ddae1491f98c3ee
   searchHistory(event){
     this.setData({
       searchContent: event.currentTarget.dataset.historyword
