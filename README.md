@@ -50,7 +50,7 @@ promise
 ![搜索列表](https://images.gitee.com/uploads/images/2021/0214/110851_b73a082e_8531883.png "searchList.png")
 
 ##### 历史搜索记录
-![历史搜索记录](https://images.gitee.com/uploads/images/2021/0214/110936_2a5a29ec_8531883.png "songDetail.png")
+![历史搜索记录](https://images.gitee.com/uploads/images/2021/0228/101514_0d59160a_8531883.png "5@O3N5_BR]AIQV_04N2FTGV.png")
 
 ##### 歌曲详情页面
 ![歌曲详情页面](https://images.gitee.com/uploads/images/2021/0225/103707_2af1320a_8531883.png "7XTTM23O@K989}3D67M2ZRS.png")
