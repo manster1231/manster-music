@@ -53,4 +53,4 @@ promise
 ![历史搜索记录](https://images.gitee.com/uploads/images/2021/0214/110936_2a5a29ec_8531883.png "songDetail.png")
 
 ##### 歌曲详情页面
-![歌曲详情页面](https://images.gitee.com/uploads/images/2021/0214/110910_4e4ad21c_8531883.png "historyRecord.png")
+![歌曲详情页面](https://images.gitee.com/uploads/images/2021/0225/103707_2af1320a_8531883.png "7XTTM23O@K989}3D67M2ZRS.png")
