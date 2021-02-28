@@ -5,9 +5,15 @@
   width: 100%;
   height: 300rpx;
 }
-.listSongContainer .header image {
-  width: 100%;
-  height: 100%;
+ .listSongContainer .header image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 800rpx;
+  height: 800rpx;
 }
 .listSongContainer .header .discribe {
   position: absolute;
