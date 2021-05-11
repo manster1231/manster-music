@@ -1,5 +1,5 @@
 {
-  "name": "guiguyinyue_server",
+  "name": "manster_server",
   "version": "3.25.3",
   "description": "网易云音乐 NodeJS 版 API",
   "scripts": {
@@ -12,7 +12,7 @@
     "网易云音乐nodejs",
     "尚硅谷"
   ],
-  "author": "zhiyong",
+  "author": "manster",
   "dependencies": {
     "apicache": "^1.5.2",
     "express": "^4.17.1",
