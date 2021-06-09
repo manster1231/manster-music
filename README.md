@@ -5,7 +5,10 @@
 
 #### 软件架构
 Nodejs作为后端，跨站请求伪造 (CSRF), 伪造请求头 , 调用官方 API
-API下载地址 [网易云音乐NodeJS版API](https://binaryify.github.io/NeteaseCloudMusicApi/#/)
+
+[网易云音乐NodeJS版API](https://binaryify.github.io/NeteaseCloudMusicApi/#/)
+
+
 使用ES6语法
 
 使用promise对象进行异步请求资源
