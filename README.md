@@ -20,11 +20,13 @@ Nodejs作为后端，跨站请求伪造 (CSRF), 伪造请求头 , 调用官方 A
 
 #### 安装教程
 
-1.  git到本地
+1.  git到本地，或者下载zip包解压
 2.  进入manster_server目录
+![cd](https://images.gitee.com/uploads/images/2021/0609/200959_e6cd2489_8531883.png "1.png")
 3.  在路径栏输入cmd
+![cmd](https://images.gitee.com/uploads/images/2021/0609/201013_22f8ed98_8531883.png "2.png")
 4.  npm start开启服务(可能会提示nodemon不是内外部程序，则通过npm install -g nodemon解决)
-
+![start](https://images.gitee.com/uploads/images/2021/0609/201030_2106a276_8531883.png "3.png")
 #### 使用说明
 
 1.  首先要安装有nodejs
