@@ -29,15 +29,15 @@ Nodejs作为后端，跨站请求伪造 (CSRF), 伪造请求头 , 调用官方 A
 ![start](https://images.gitee.com/uploads/images/2021/0609/201030_2106a276_8531883.png "3.png")
 #### 使用说明
 
-1.  首先要安装有nodejs
-2.  然后安装有微信小程序开发者工具
+1.  首先要安装有nodejs，我下载的是14.9.0，npm是6.14.8
+2.  然后安装有[微信小程序开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html),我使用的是1.03
 3.  使用详情可参考微信官网给出的[起步](https://developers.weixin.qq.com/miniprogram/dev/framework/)
 4.  导入项目以后记得在本地配置中勾选
     - ES6 转 ES5
     - 增强编译
     - 使用npm模块
     - 不校验合法域名、web-view(业务域名)、TLS版本以及 HTTPS 证书
-
+    - ![config](https://images.gitee.com/uploads/images/2021/0609/201439_fe0c3b8f_8531883.png "config.png")
 #### 预览效果如下
 ##### 初始页面
 ![初始页面](https://images.gitee.com/uploads/images/2021/0214/110613_9eb39fdf_8531883.png "index.png")
