@@ -38,6 +38,14 @@ Nodejs作为后端，跨站请求伪造 (CSRF), 伪造请求头 , 调用官方 A
     - 使用npm模块
     - 不校验合法域名、web-view(业务域名)、TLS版本以及 HTTPS 证书
     - ![config](https://images.gitee.com/uploads/images/2021/0609/201439_fe0c3b8f_8531883.png "config.png")
+5. 点击观看视频报错
+
+```
+TypeError: Cannot read property 'length' of undefined
+```
+获取视频资源需要用户进行登录，登录校验完成后才可以获得加载视频的权限
+
+网易云需要用户自己去设置一个密码，然后才能进行登录(已有的api中不支持验证码登录)
 #### 预览效果如下
 ##### 初始页面
 ![初始页面](https://images.gitee.com/uploads/images/2021/0214/110613_9eb39fdf_8531883.png "index.png")
