@@ -45,7 +45,10 @@ TypeError: Cannot read property 'length' of undefined
 ```
 获取视频资源需要用户进行登录，登录校验完成后才可以获得加载视频的权限
 
-网易云需要用户自己去设置一个密码，然后才能进行登录(已有的api中不支持验证码登录)
+目前没有做注册的功能，网易云需要用户自己去设置一个密码，然后才能进行登录(已有的api中不支持验证码登录)
+
+6. 如果要进行真机调试，需要改变 utils/config.js 里面的 ip 和 request.js中的 url:config.host + url 对应起来，如果只是要自己调试玩一下的话建议使用 uTools 的内网穿透，详情自己百度
+
 #### 预览效果如下
 ##### 初始页面
 ![初始页面](https://images.gitee.com/uploads/images/2021/0214/110613_9eb39fdf_8531883.png "index.png")
