@@ -14,12 +14,12 @@
   ],
   "author": "manster",
   "dependencies": {
-    "apicache": "^1.5.2",
+    "apicache": "^1.6.3",
     "express": "^4.17.1",
     "flyio": "^0.6.14",
     "jsonwebtoken": "^8.5.1",
     "pac-proxy-agent": "^3.0.1",
-    "request": "^2.88.0"
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "eslint": "^6.6.0",

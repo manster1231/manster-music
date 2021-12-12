@@ -13,6 +13,7 @@ Page({
     coverTransition: '',
     userInfo: {},
     recentPlayList: [],//播放记录
+    isLogin: false //控制退出登录显示
   },
 
   /**
@@ -24,7 +25,8 @@ Page({
     if(userInfo){
       //更新用户信息
       this.setData({
-        userInfo: JSON.parse(userInfo)
+        userInfo: JSON.parse(userInfo),
+        isLogin: true
       })
       //播放记录
       this.getUserRecentPlayList(this.data.userInfo.userId)
@@ -78,6 +80,25 @@ Page({
   toLogin(){
     wx.navigateTo({
       url: '/pages/login/login',
+    })
+  },
+  //退出登录
+  logout(){
+    //服务端退出登录状态
+    let status = request('/logout');
+    console.log(status)
+    //删除客户端信息
+    wx.removeStorageSync('userInfo')
+    this.setData({
+      userInfo: {},
+      isLogin: false
+    })
+    wx.navigateTo({
+      url: '/pages/login/login',
+    })
+    wx.showToast({
+      title: '退出登录',
+      icon: 'success'
     })
   },
   /**

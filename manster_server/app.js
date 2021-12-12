@@ -6,9 +6,9 @@ const request = require('./util/request')
 const packageJSON = require('./package.json')
 const exec = require('child_process').exec
 const cache = require('apicache').middleware
-const Fly=require("flyio/src/node");
+const Fly = require('flyio/src/node');
 const jwt = require('jsonwebtoken');
-const fly=new Fly;
+const fly = new Fly;
 
 
 const app = express()
@@ -51,20 +51,21 @@ app.use(express.static(path.join(__dirname, 'public')))
 // 注册获取用户唯一标识的接口
 app.use('/getOpenId', async (req, res, next) => {
   let code = req.query.code;
-  let appId = 'wx810e8b1fde386fde';
-  let appSecret = '8bb909649da12002fba7a47f5ac3791b';
+  let appId = 'wx73cfd38f5bdde280';
+  let appSecret = '3391286f31bb6afeffb1cb8b95cf608c';
   let url = `https://api.weixin.qq.com/sns/jscode2session?appid=${appId}&secret=${appSecret}&js_code=${code}&grant_type=authorization_code`
   // 发请求给微信服务器获取openId
   let result = await fly.get(url);
+  console.log(result)
   let openId = JSON.parse(result.data).openid;
-   console.log('openId', openId);
-   // 自定义登录态
-   let person = {
-     username: '余生请指教',
-     age: 18,
-     openId
-   }
-   // 对用户的数据进行加密，生成token返回给客户端
+  console.log('openId', openId);
+  // 自定义登录态
+  let person = {
+    username: 'manster',
+    age: 18,
+    openId
+  }
+  // 对用户的数据进行加密，生成token返回给客户端
   let token = jwt.sign(person, 'manster');
   console.log(token);
   // 验证身份，反编译token
