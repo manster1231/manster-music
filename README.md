@@ -52,7 +52,7 @@ TypeError: Cannot read property 'length' of undefined
 
 目前没有做注册的功能，网易云需要用户自己去设置一个密码，然后才能进行登录(已有的api中不支持验证码登录)
 
-6. 如果要进行真机调试，需要改变 utils/config.js 里面的 ip 和 request.js中的 url:config.host + url 对应起来，如果只是要自己调试玩一下的话建议使用 uTools 的内网穿透，详情自己百度
+6. 如果要进行真机调试，需要改变 utils/config.js 里面的 ip 和 request.js中的 url:config.host + url 对应起来，如果只是要自己调试玩一下的话建议使用 ~~uTools 的内网穿透，详情自己百度~~（utools为了安全把这个功能删了，大家可以试试花生壳）
 
 #### 预览效果如下
 ##### 初始页面
