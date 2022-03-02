@@ -32,7 +32,7 @@ Nodejs作为后端，跨站请求伪造 (CSRF), 伪造请求头 , 调用官方 A
 
 ![start](https://images.gitee.com/uploads/images/2021/0609/201030_2106a276_8531883.png "3.png")
 5.  用微信开发者工具打开manster云音乐文件夹
-![open](manster%E4%BA%91%E9%9F%B3%E4%B9%90/static/images/46H%7D(E2%5BVAQL$6Q0UB%5D%60J$E.png)
+![输入图片说明](manster%E4%BA%91%E9%9F%B3%E4%B9%90/static/images/46H%7D(E2%5BVAQL$6Q0UB%5D%60J$E.png)
 #### 使用说明
 
 1.  首先要安装有nodejs，我下载的是14.9.0，npm是6.14.8
